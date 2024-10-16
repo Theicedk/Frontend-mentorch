@@ -1,0 +1,85 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html{
+    background-color: #F3E6D8;
+}
+
+body{
+    background-color: white;
+    height: 1900px;
+    width: 700px;
+    margin: 200px 600px;
+    border-radius: 20px;
+
+}
+
+b{
+    color: hsl(30, 10%, 34%);
+
+}
+
+.imagen-omelette{
+    height: 300px;
+    width: 590.4px;
+    margin: 40px 55px 30px 55px;
+    border-radius: 20px;
+}
+
+
+.prep_time{
+    background-color: hsl(330, 100%, 98%);
+    margin: 20px 40px 20px 40px;
+    padding: 5px 30px;
+
+}
+
+
+.ingredient_sect{
+    margin: 20px 40px 10px 40px;
+    padding: 5px;
+    border-bottom: 1px solid rgb(194, 194, 194);
+
+}
+
+.intro_recipe{
+    margin: 10px 40px 40px 40px;
+}
+
+.instrucciones{
+    margin: 20px 40px 10px 40px;
+    padding: 5px;
+    border-bottom: 1px solid rgb(194, 194, 194);
+}
+
+.nutri{
+    margin: 40px;
+    border-collapse: collapse;
+    
+}
+
+li{
+    margin: 10px;
+}
+
+.element_nutrition{
+    margin: 10px;
+    padding: 10px;
+    border-bottom: 1px solid rgb(194, 194, 194);
+    color:  hsl(24, 5%, 18%);
+}
+
+.element_nutrition:last-child{
+    border-bottom: none;
+}
+
+.value{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+h1, h2{
+    color: hsl(14, 45%, 36%);
+}
